@@ -63,7 +63,7 @@ plt.rcParams['ytick.labelsize'] = 14
 ax1 = fig.add_subplot(211)
 ax2 = fig.add_subplot(212)
 
-labels = ["sperry", "dewar", "dewar_mod", "eller", "lambda", "prentice", "wap"]
+labels = ["sperry", "dewar", "dewar_mod", "eller", "lambda", "prentice", "wolf"]
 
 for i in range(N_models):
     ax1.plot(psoil, all_opt_a[:,i], label=labels[i])
