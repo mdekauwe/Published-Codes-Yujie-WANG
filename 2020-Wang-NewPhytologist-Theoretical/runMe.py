@@ -71,7 +71,7 @@ for i in range(N_models):
 
 ax1.legend(numpoints=1, loc="best", ncol=1, frameon=False)
 plt.setp(ax1.get_xticklabels(), visible=False)
-ax1.set_ylabel("opt_a")
-ax2.set_ylabel("opt_g")
+ax1.set_ylabel("A")
+ax2.set_ylabel("g$_{s}$")
 ax2.set_xlabel("$\Psi$$_{s}$ (MPa)")
 plt.show()
